@@ -1,0 +1,100 @@
+:root {
+    --black: #1a1a1a8c;
+    --white: #fff;
+    --green: #18e233;
+    --transition-delay: 0.85s;
+    --transition-delay-step: 0.3s;
+  }
+   
+  * {
+    padding: 0;
+    margin: 0;
+  }
+   
+  ul {
+    list-style: none;
+  }
+   
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+   
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+   
+  .d-flex {
+    display: flex;
+  }
+   
+  .flex-column {
+    flex-direction: column;
+  }
+   
+  .justify-content-center {
+    justify-content: center;
+  }
+   
+  .justify-content-between {
+    justify-content: space-between;
+  }
+   
+  .justify-content-around {
+    justify-content: space-around;
+  }
+   
+  .align-items-center {
+    align-items: center;
+  }
+   
+  .align-items-end {
+    align-items: flex-end;
+  }
+   
+  .flex-grow-1 {
+    flex-grow: 1;
+  }
+   
+  .w-100 {
+    width: 100%;
+  }
+   
+  .position-relative {
+    position: relative;
+  }
+   
+  .position-fixed {
+    position: fixed;
+  }
+   
+  .position-absolute {
+    position: absolute;
+  }
+   
+  .text-center {
+    text-align: center;
+  }
+   
+  .text-black {
+    color: var(--black);
+  }
+   
+  .text-white {
+    color: var(--white);
+  }
+   
+  .bg-black {
+    background: var(--black);
+  }
+   
+  .bg-white {
+    background: var(--white);
+  }
+   
+  .bg-red {
+    background: var(--red);
+  }
